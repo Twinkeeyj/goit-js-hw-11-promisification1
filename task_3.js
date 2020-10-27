@@ -1,6 +1,6 @@
-export default function () {
+
     
-    const fn = function(){
+
     const randomIntegerFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
@@ -43,7 +43,4 @@ makeTransaction({ id: 73, amount: 100 })
   .then(logSuccess)
   .catch(logError);
 
-}
 
-return {fn}
-}
